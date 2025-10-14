@@ -1,8 +1,9 @@
 /// @DnDAction : YoYo Games.Loops.For_Loop
 /// @DnDVersion : 1
 /// @DnDHash : 07754D02
+/// @DnDArgument : "init_temp" "1"
 /// @DnDArgument : "cond" "i < array_length(cannons[ship_level])"
-for(i = 0; i < array_length(cannons[ship_level]); i += 1) {	/// @DnDAction : YoYo Games.Instances.Create_Instance
+for(var i = 0; i < array_length(cannons[ship_level]); i += 1) {	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 560C62A0
 	/// @DnDParent : 07754D02

@@ -30,8 +30,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"ship_speed","filters":[],"listItems":[],"multiselect":false,"name":"ship_speed","rangeEnabled":true,"rangeMax":15.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"left_boundary","filters":[],"listItems":[],"multiselect":false,"name":"left_boundary","rangeEnabled":false,"rangeMax":500.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"right_boundary","filters":[],"listItems":[],"multiselect":false,"name":"right_boundary","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"620","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"boundary","filters":[],"listItems":[],"multiselect":false,"name":"boundary","rangeEnabled":false,"rangeMax":500.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"bullet_delay","filters":[],"listItems":[],"multiselect":false,"name":"bullet_delay","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"60","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"ship_life","filters":[],"listItems":[],"multiselect":false,"name":"ship_life","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"50","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"ship_attack","filters":[],"listItems":[],"multiselect":false,"name":"ship_attack","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
