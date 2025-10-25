@@ -29,7 +29,7 @@
     {"$GMObjectProperty":"v2","%Name":"star_layer","filters":[],"listItems":[],"multiselect":false,"name":"star_layer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Stars","varType":2,},
     {"$GMObjectProperty":"v2","%Name":"star_prefab","filters":[
         "GMObject",
-      ],"listItems":[],"multiselect":false,"name":"star_prefab","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"star_prefab","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"amount","filters":[],"listItems":[
         "50",
         "\"Item 1\"",

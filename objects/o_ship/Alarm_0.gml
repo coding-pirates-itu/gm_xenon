@@ -10,9 +10,19 @@ for(var i = 0; i < array_length(cannons[ship_level]); i += 1) {	/// @DnDAction 
 	/// @DnDArgument : "xpos" "cannons[ship_level][i]"
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos_relative" "1"
+	/// @DnDArgument : "var" "bullet"
+	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "objectid" "o_bullet"
 	/// @DnDSaveInfo : "objectid" "o_bullet"
-	instance_create_layer(x + cannons[ship_level][i], y + 0, "Instances", o_bullet);}
+	var bullet = instance_create_layer(x + cannons[ship_level][i], y + 0, "Instances", o_bullet);
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 78C12EF7
+	/// @DnDParent : 07754D02
+	/// @DnDArgument : "expr" "attack"
+	/// @DnDArgument : "var" "bullet.damage"
+	bullet.damage = attack;}
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1

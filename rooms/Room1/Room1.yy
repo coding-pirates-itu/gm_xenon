@@ -8,11 +8,15 @@
   "instanceCreationOrder":[
     {"name":"inst_4D29FFC2","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4E5F2C1A","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_1653BC89","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_4D29FFC2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4D29FFC2","objectId":{"name":"o_ship","path":"objects/o_ship/o_ship.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":736.0,},
+        {"$GMRInstance":"v4","%Name":"inst_1653BC89","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1653BC89","objectId":{"name":"o_enemy_controller","path":"objects/o_enemy_controller/o_enemy_controller.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_enemy_controller","path":"objects/o_enemy_controller/o_enemy_controller.yy",},"propertyId":{"name":"enemy_prefab","path":"objects/o_enemy_controller/o_enemy_controller.yy",},"resource":{"name":"o_enemy","path":"objects/o_enemy/o_enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"o_enemy",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":64.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Stars","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_4E5F2C1A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4E5F2C1A","objectId":{"name":"o_sky_controller","path":"objects/o_sky_controller/o_sky_controller.yy",},"properties":[
