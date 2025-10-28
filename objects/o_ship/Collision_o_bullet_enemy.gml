@@ -1,18 +1,19 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Instance Variables.Set_Health
 /// @DnDVersion : 1
-/// @DnDHash : 54F08B42
-/// @DnDArgument : "expr" "-other.damage"
-/// @DnDArgument : "expr_relative" "1"
-/// @DnDArgument : "var" "life"
-life += -other.damage;
+/// @DnDHash : 613A4717
+/// @DnDArgument : "health" "-other.damage * 100 / life"
+/// @DnDArgument : "health_relative" "1"
+if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;__dnd_health += real(-other.damage * 100 / life);
 
-/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 545E792A
-/// @DnDArgument : "var" "life"
-/// @DnDArgument : "op" "3"
-if(life <= 0){	/// @DnDAction : YoYo Games.Game.End_Game
-	/// @DnDVersion : 1
-	/// @DnDHash : 63C4D95D
-	/// @DnDParent : 545E792A
-	game_end();}
+/// @DnDHash : 01116D90
+/// @DnDArgument : "code" "/// @description GML Visual lacks this basic call$(13_10)part_particles_burst(global.ps_blast, x, y, ps_blast);"
+/// @description GML Visual lacks this basic call
+part_particles_burst(global.ps_blast, x, y, ps_blast);
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 558492AC
+/// @DnDApplyTo : other
+with(other) instance_destroy();

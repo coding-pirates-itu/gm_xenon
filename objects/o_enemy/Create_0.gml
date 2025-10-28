@@ -1,8 +1,13 @@
 /// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 /// @DnDVersion : 1
 /// @DnDHash : 783B96B0
+/// @DnDInput : 2
+/// @DnDArgument : "value" "enemy_speed"
+/// @DnDArgument : "value_1" "100"
 /// @DnDArgument : "instvar" "5"
-vspeed = 0;
+/// @DnDArgument : "instvar_1" "23"
+vspeed = enemy_speed;
+__dnd_health = 100;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1

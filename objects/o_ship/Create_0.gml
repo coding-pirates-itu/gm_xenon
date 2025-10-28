@@ -8,6 +8,12 @@
 cannons = [[0], [-13,13], [-13,0,13]];
 ship_level = 0;
 
+/// @DnDAction : YoYo Games.Instance Variables.Set_Health
+/// @DnDVersion : 1
+/// @DnDHash : 46742669
+/// @DnDArgument : "health" "100"
+__dnd_health = real(100);
+
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 04609F69
